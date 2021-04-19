@@ -1,0 +1,10 @@
+TIM16_subsystem.c:5:13:___dummyDelay	4	static
+TIM16_subsystem.c:10:13:___tim16_updatePscArrCntRegisters	8	static
+TIM16_subsystem.c:18:6:__tim16_initTimer	8	static
+TIM16_subsystem.c:27:6:__tim16_setPrescalerValue	16	static
+TIM16_subsystem.c:32:6:__tim16_setCounterValue	16	static
+TIM16_subsystem.c:39:6:__tim16_startTimer	4	static
+TIM16_subsystem.c:44:9:__tim16_isCounting	4	static
+TIM16_subsystem.c:49:9:__tim16_hasCounted_clearUIFflag	16	static
+TIM16_subsystem.c:56:6:__tim16_stopTimer	4	static
+TIM16_subsystem.c:62:6:_init_tim16_subsystem	16	static

@@ -1,0 +1,10 @@
+bootloader\sdcard_if.o: Libraries\FatFS_src\sdcard_if.c
+bootloader\sdcard_if.o: Libraries\FatFS_src\sdcard_if.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Include/core_cm4.h
+bootloader\sdcard_if.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Include/cmsis_version.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+bootloader\sdcard_if.o: ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h

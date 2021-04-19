@@ -1,0 +1,3 @@
+DMA_subsystem.c:7:6:__dma_initialize	16	static
+DMA_subsystem.c:18:6:__dma_returnDataInfo	16	static
+DMA_subsystem.c:25:6:_init_dma_dubsystem	16	static

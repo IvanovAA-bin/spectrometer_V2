@@ -1,0 +1,8 @@
+SequencerTasks.c:5:13:ResponceCmd	24	static
+SequencerTasks.c:21:13:ResponceData	24	static
+SequencerTasks.c:37:16:isAcceptableCharValue	16	static
+SequencerTasks.c:52:6:ST_rf_ProcessFirstCharWrite	48	static
+SequencerTasks.c:300:6:ST_rf_ProcessSecondCharWrite	16	static
+SequencerTasks.c:360:6:ST_rf_UpdateCPS	16	static
+SequencerTasks.c:373:6:ST_fs_Initialize	8	static
+SequencerTasks.c:380:6:ST_fs_SaveSpectrPostDelayed	8	static

@@ -1,0 +1,9 @@
+custom_app.c:96:6:Custom_STM_App_Notification	16	static
+custom_app.c:198:6:Custom_APP_Notification	16	static
+custom_app.c:235:6:Custom_APP_Init	4	static
+custom_app.c:254:6:Custom_Mcu_p_cps_Update_Char	8	static
+custom_app.c:263:6:Custom_Mcu_p_cps_Send_Notification	8	static
+custom_app.c:279:6:Custom_Mcu_p_data_Update_Char	8	static
+custom_app.c:288:6:Custom_Mcu_p_data_Send_Notification	8	static
+custom_app.c:304:6:Custom_Mcu_p_spcb_Update_Char	8	static
+custom_app.c:313:6:Custom_Mcu_p_spcb_Send_Notification	8	static

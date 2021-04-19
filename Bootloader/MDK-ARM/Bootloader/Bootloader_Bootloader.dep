@@ -1,0 +1,960 @@
+Dependencies for Project 'Bootloader', Target 'Bootloader': (DO NOT MODIFY !)
+F (startup_stm32wb55xx_cm4.s)(0x6054AD59)(--cpu Cortex-M4.fp --li --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "STM32WB55xx SETA 1"--list startup_stm32wb55xx_cm4.lst --xref -o bootloader\startup_stm32wb55xx_cm4.o --depend bootloader\startup_stm32wb55xx_cm4.d)
+F (../Core/Src/main.c)(0x605DCB90)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I .\Libraries\FatFS_src -I .\Libraries\IntelHexConverter -I .\Libraries\System -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\main.o --omf_browse bootloader\main.crf --depend bootloader\main.d)
+I (../Core/Inc/main.h)(0x6054AD55)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+I (.\Libraries\System\System.h)(0x605469AB)
+I (.\Libraries\System\uSD subsystem/uSD_subsystem.h)(0x602FB9FA)
+I (.\Libraries\System\TIM16 subsystem/TIM16_subsystem.h)(0x603234B3)
+I (.\Libraries\FatFS_src\ff.h)(0x5FCB6988)
+I (.\Libraries\FatFS_src\ffconf.h)(0x602D1394)
+I (.\Libraries\IntelHexConverter\IHC.h)(0x6054699E)
+F (../Core/Src/stm32wbxx_it.c)(0x6054AD54)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I .\Libraries\FatFS_src -I .\Libraries\IntelHexConverter -I .\Libraries\System -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_it.o --omf_browse bootloader\stm32wbxx_it.crf --depend bootloader\stm32wbxx_it.d)
+I (../Core/Inc/main.h)(0x6054AD55)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_it.h)(0x6054AD54)
+F (../Core/Src/stm32wbxx_hal_msp.c)(0x6054AD54)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I .\Libraries\FatFS_src -I .\Libraries\IntelHexConverter -I .\Libraries\System -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_msp.o --omf_browse bootloader\stm32wbxx_hal_msp.crf --depend bootloader\stm32wbxx_hal_msp.d)
+I (../Core/Inc/main.h)(0x6054AD55)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (.\Libraries\System\System.c)(0x605468D8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\system.o --omf_browse bootloader\system.crf --depend bootloader\system.d)
+I (Libraries\System\System.h)(0x605469AB)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (Libraries\System\uSD subsystem/uSD_subsystem.h)(0x602FB9FA)
+I (Libraries\System\TIM16 subsystem/TIM16_subsystem.h)(0x603234B3)
+F (.\Libraries\System\uSD subsystem\sd_override_functions.c)(0x6032BDC7)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\sd_override_functions.o --omf_browse bootloader\sd_override_functions.crf --depend bootloader\sd_override_functions.d)
+I (../Core/Inc/main.h)(0x6054AD55)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+I (Libraries\System\uSD subsystem\../System.h)(0x605469AB)
+I (Libraries\System\uSD subsystem\../uSD subsystem/uSD_subsystem.h)(0x602FB9FA)
+I (Libraries\System\uSD subsystem\../TIM16 subsystem/TIM16_subsystem.h)(0x603234B3)
+F (.\Libraries\System\uSD subsystem\uSD_driver_functions.c)(0x602FBC3F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\usd_driver_functions.o --omf_browse bootloader\usd_driver_functions.crf --depend bootloader\usd_driver_functions.d)
+I (Libraries\System\uSD subsystem\uSD_driver_functions.h)(0x602FB9FA)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+F (.\Libraries\System\uSD subsystem\uSD_subsystem.c)(0x602FBC3F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\usd_subsystem.o --omf_browse bootloader\usd_subsystem.crf --depend bootloader\usd_subsystem.d)
+I (Libraries\System\uSD subsystem\uSD_subsystem.h)(0x602FB9FA)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (Libraries\System\uSD subsystem\uSD_driver_functions.h)(0x602FB9FA)
+F (.\Libraries\System\TIM16 subsystem\TIM16_driver_functions.c)(0x603234B4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\tim16_driver_functions.o --omf_browse bootloader\tim16_driver_functions.crf --depend bootloader\tim16_driver_functions.d)
+I (Libraries\System\TIM16 subsystem\TIM16_driver_functions.h)(0x603234B4)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+F (.\Libraries\System\TIM16 subsystem\TIM16_subsystem.c)(0x603234B4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\tim16_subsystem.o --omf_browse bootloader\tim16_subsystem.crf --depend bootloader\tim16_subsystem.d)
+I (Libraries\System\TIM16 subsystem\TIM16_subsystem.h)(0x603234B3)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (Libraries\System\TIM16 subsystem\TIM16_driver_functions.h)(0x603234B4)
+F (.\Libraries\IntelHexConverter\IHC.c)(0x605CF6F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\ihc.o --omf_browse bootloader\ihc.crf --depend bootloader\ihc.d)
+I (Libraries\IntelHexConverter\IHC.h)(0x6054699E)
+I (../Core/Inc/main.h)(0x6054AD55)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (.\Libraries\FatFS_src\diskio.c)(0x603011F2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\diskio.o --omf_browse bootloader\diskio.crf --depend bootloader\diskio.d)
+I (Libraries\FatFS_src\ff.h)(0x5FCB6988)
+I (Libraries\FatFS_src\ffconf.h)(0x602D1394)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (Libraries\FatFS_src\diskio.h)(0x602BE531)
+I (Libraries\FatFS_src\sdcard_if.h)(0x602F8A9F)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+F (.\Libraries\FatFS_src\ff.c)(0x5FCB6988)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\ff.o --omf_browse bootloader\ff.crf --depend bootloader\ff.d)
+I (Libraries\FatFS_src\ff.h)(0x5FCB6988)
+I (Libraries\FatFS_src\ffconf.h)(0x602D1394)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (Libraries\FatFS_src\diskio.h)(0x602BE531)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599F218A)
+F (.\Libraries\FatFS_src\ffsystem.c)(0x5FCB6988)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\ffsystem.o --omf_browse bootloader\ffsystem.crf --depend bootloader\ffsystem.d)
+I (Libraries\FatFS_src\ff.h)(0x5FCB6988)
+I (Libraries\FatFS_src\ffconf.h)(0x602D1394)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+F (.\Libraries\FatFS_src\ffunicode.c)(0x5FCB6988)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\ffunicode.o --omf_browse bootloader\ffunicode.crf --depend bootloader\ffunicode.d)
+I (Libraries\FatFS_src\ff.h)(0x5FCB6988)
+I (Libraries\FatFS_src\ffconf.h)(0x602D1394)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+F (.\Libraries\FatFS_src\sdcard_if.c)(0x60323EED)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\sdcard_if.o --omf_browse bootloader\sdcard_if.crf --depend bootloader\sdcard_if.d)
+I (Libraries\FatFS_src\sdcard_if.h)(0x602F8A9F)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_spi.o --omf_browse bootloader\stm32wbxx_hal_spi.crf --depend bootloader\stm32wbxx_hal_spi.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_spi_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_spi_ex.o --omf_browse bootloader\stm32wbxx_hal_spi_ex.crf --depend bootloader\stm32wbxx_hal_spi_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_rcc.o --omf_browse bootloader\stm32wbxx_hal_rcc.crf --depend bootloader\stm32wbxx_hal_rcc.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_rcc_ex.o --omf_browse bootloader\stm32wbxx_hal_rcc_ex.crf --depend bootloader\stm32wbxx_hal_rcc_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c)(0x6054B306)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_flash.o --omf_browse bootloader\stm32wbxx_hal_flash.crf --depend bootloader\stm32wbxx_hal_flash.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_flash_ex.o --omf_browse bootloader\stm32wbxx_hal_flash_ex.crf --depend bootloader\stm32wbxx_hal_flash_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_gpio.o --omf_browse bootloader\stm32wbxx_hal_gpio.crf --depend bootloader\stm32wbxx_hal_gpio.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_hsem.o --omf_browse bootloader\stm32wbxx_hal_hsem.crf --depend bootloader\stm32wbxx_hal_hsem.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_dma.o --omf_browse bootloader\stm32wbxx_hal_dma.crf --depend bootloader\stm32wbxx_hal_dma.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_dma_ex.o --omf_browse bootloader\stm32wbxx_hal_dma_ex.crf --depend bootloader\stm32wbxx_hal_dma_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_pwr.o --omf_browse bootloader\stm32wbxx_hal_pwr.crf --depend bootloader\stm32wbxx_hal_pwr.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_pwr_ex.o --omf_browse bootloader\stm32wbxx_hal_pwr_ex.crf --depend bootloader\stm32wbxx_hal_pwr_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_cortex.o --omf_browse bootloader\stm32wbxx_hal_cortex.crf --depend bootloader\stm32wbxx_hal_cortex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal.o --omf_browse bootloader\stm32wbxx_hal.crf --depend bootloader\stm32wbxx_hal.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_exti.o --omf_browse bootloader\stm32wbxx_hal_exti.crf --depend bootloader\stm32wbxx_hal_exti.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_tim.o --omf_browse bootloader\stm32wbxx_hal_tim.crf --depend bootloader\stm32wbxx_hal_tim.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c)(0x602788AF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\stm32wbxx_hal_tim_ex.o --omf_browse bootloader\stm32wbxx_hal_tim_ex.crf --depend bootloader\stm32wbxx_hal_tim_ex.d)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)
+F (../Core/Src/system_stm32wbxx.c)(0x602788AC)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB --li -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc -I ../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_Bootloader-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32WBxx_DFP\1.1.0\Drivers\CMSIS\Device\ST\STM32WBxx\Include-D__UVISION_VERSION="526" -D_RTE_ -DSTM32WB55xx -DUSE_HAL_DRIVER -DSTM32WB55xx-o bootloader\system_stm32wbxx.o --omf_browse bootloader\system_stm32wbxx.crf --depend bootloader\system_stm32wbxx.d)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h)(0x602788AC)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h)(0x602788AC)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x602788AF)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x602788AF)
+I (../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h)(0x602788AC)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h)(0x602788AF)
+I (../Core/Inc/stm32wbxx_hal_conf.h)(0x6054AD54)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_def.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x602788AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599F218C)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dma.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_dmamux.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_cortex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_flash_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_gpio_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_pwr.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_exti.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pwr_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rcc.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_rcc_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_crs.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_spi_ex.h)(0x602788AF)
+I (../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h)(0x602788AF)

@@ -1,0 +1,4 @@
+uSD_subsystem.c:6:9:__uSD_isAvailable	4	static
+uSD_subsystem.c:11:6:__uSD_setInitialized	16	static
+uSD_subsystem.c:16:9:__uSD_isInitialized	4	static
+uSD_subsystem.c:21:6:_init_uSD_subsystem	16	static

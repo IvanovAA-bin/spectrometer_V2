@@ -1,0 +1,17 @@
+stm32wbxx_ll_system.h:2221:26:LL_FLASH_GetUDN	4	static
+stm32wbxx_ll_system.h:2233:26:LL_FLASH_GetDeviceID	4	static
+stm32wbxx_ll_system.h:2245:26:LL_FLASH_GetSTCompanyID	4	static
+app_ble.c:250:6:APP_BLE_Init	64	static
+app_ble.c:354:28:SVCCTL_App_Notification	48	static
+app_ble.c:541:22:APP_BLE_Get_Server_Connection_Status	4	static
+app_ble.c:554:13:Ble_Tl_Init	16	static
+app_ble.c:565:13:Ble_Hci_Gap_Gatt_Init	80	static
+app_ble.c:693:13:Adv_Request	56	static
+app_ble.c:729:16:BleGetBdAddress	32	static
+app_ble.c:779:13:Adv_Cancel	16	static
+app_ble.c:864:6:hci_notify_asynch_evt	16	static
+app_ble.c:870:6:hci_cmd_resp_release	16	static
+app_ble.c:876:6:hci_cmd_resp_wait	16	static
+app_ble.c:882:13:BLE_UserEvtRx	24	static
+app_ble.c:900:13:BLE_StatusNot	24	static
+app_ble.c:931:6:SVCCTL_ResumeUserEventFlow	8	static

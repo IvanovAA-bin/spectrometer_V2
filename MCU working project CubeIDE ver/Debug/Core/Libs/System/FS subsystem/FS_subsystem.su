@@ -1,0 +1,15 @@
+FS_subsystem.c:10:21:_fs_strLen	24	static
+FS_subsystem.c:19:17:_fs_attachStrings	32	static
+FS_subsystem.c:33:17:_fs_convertSpectValToStr	40	static
+FS_subsystem.c:75:17:__FS_saveFmwInfoAndInitFilStruct	912	static
+FS_subsystem.c:102:6:__FS_initialize	24	static
+FS_subsystem.c:118:6:__FS_saveRadInfo_csv	648	static
+FS_subsystem.c:142:13:_fs_getHexAsChar	16	static
+FS_subsystem.c:151:13:_fs_prepareSysSetStr	24	static
+FS_subsystem.c:164:16:_fs_convertUint32ToChar	32	static
+FS_subsystem.c:188:6:__FS_saveSystemSettingsInfo	888	static
+FS_subsystem.c:240:16:_fs_fromCharToUint8_t	16	static
+FS_subsystem.c:251:16:_fs_processCfgrDataString	40	static
+FS_subsystem.c:265:17:_fs_getUint32FromChar	24	static
+FS_subsystem.c:280:6:__FS_downloadSystemSettingsInfo	1176	static
+FS_subsystem.c:358:6:_init_fs_subsystem	16	static

@@ -1,0 +1,5 @@
+radiation_subsystem.c:5:6:__rad_startComp	4	static
+radiation_subsystem.c:10:6:__rad_stopComp	4	static
+radiation_subsystem.c:15:10:__rad_calculateMaxValue	24	static
+radiation_subsystem.c:35:6:__rad_clearSpectrogramm	16	static
+radiation_subsystem.c:41:6:_init_rad_subsystem	16	static

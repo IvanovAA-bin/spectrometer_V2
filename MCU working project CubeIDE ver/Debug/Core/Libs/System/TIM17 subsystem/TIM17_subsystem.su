@@ -1,0 +1,7 @@
+core_cm4.h:1679:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+core_cm4.h:1809:22:__NVIC_SetPriority	16	static
+TIM17_subsystem.c:9:13:___dDelay	4	static
+TIM17_subsystem.c:14:6:__tim17_initialize	8	static
+TIM17_subsystem.c:33:6:__tim17_turnOn	4	static
+TIM17_subsystem.c:38:6:__tim17_turnOff	4	static
+TIM17_subsystem.c:44:6:_init_tim17_subsystem	16	static

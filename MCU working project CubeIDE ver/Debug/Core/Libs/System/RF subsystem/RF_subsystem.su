@@ -1,0 +1,6 @@
+RF_subsystem.c:6:6:__rf_setConnected	16	static
+RF_subsystem.c:14:6:__rf_processFirstCharWrite	24	static
+RF_subsystem.c:25:6:__rf_processSecondCharWrite	24	static
+RF_subsystem.c:36:6:__rf_processNotification	16	static
+RF_subsystem.c:52:6:__rf_updateCpsChar	16	static
+RF_subsystem.c:62:6:_init_rf_subsystem	16	static

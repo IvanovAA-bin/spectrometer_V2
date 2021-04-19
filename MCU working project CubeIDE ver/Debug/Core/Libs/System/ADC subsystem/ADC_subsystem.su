@@ -1,0 +1,12 @@
+ADC_subsystem.c:6:13:_adc_dummyDelay	4	static
+ADC_subsystem.c:11:13:_adc_enable_adc	4	static
+ADC_subsystem.c:19:13:_adc_disable_adc	4	static
+ADC_subsystem.c:27:6:__adc_calibrateAndReinit	8	static
+ADC_subsystem.c:43:6:__adc_startBatConversion	4	static
+ADC_subsystem.c:48:6:__adc_startSigConversion	4	static
+ADC_subsystem.c:53:9:__adc_isBatDataAvailable	16	static
+ADC_subsystem.c:61:9:__adc_isSigDataAvailable	16	static
+ADC_subsystem.c:69:10:__adc_getSigData	4	static
+ADC_subsystem.c:74:10:__adc_getBatData	4	static
+ADC_subsystem.c:79:6:__adc_reCalibrate	8	static
+ADC_subsystem.c:88:6:_init_adc_subsystem	16	static

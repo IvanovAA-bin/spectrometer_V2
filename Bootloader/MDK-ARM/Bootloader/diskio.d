@@ -1,0 +1,13 @@
+bootloader\diskio.o: Libraries\FatFS_src\diskio.c
+bootloader\diskio.o: Libraries\FatFS_src\ff.h
+bootloader\diskio.o: Libraries\FatFS_src\ffconf.h
+bootloader\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+bootloader\diskio.o: Libraries\FatFS_src\diskio.h
+bootloader\diskio.o: Libraries\FatFS_src\sdcard_if.h
+bootloader\diskio.o: ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h
+bootloader\diskio.o: ../Drivers/CMSIS/Include/core_cm4.h
+bootloader\diskio.o: ../Drivers/CMSIS/Include/cmsis_version.h
+bootloader\diskio.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+bootloader\diskio.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+bootloader\diskio.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+bootloader\diskio.o: ../Drivers/CMSIS/Device/ST/STM32WBxx/Include/system_stm32wbxx.h

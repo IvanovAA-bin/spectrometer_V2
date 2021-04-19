@@ -1,0 +1,10 @@
+sd_override_functions.c:5:9:USER_SPI_TransmitReceive	32	static
+sd_override_functions.c:24:6:USER_SPI_Transmit	24	static
+sd_override_functions.c:45:6:USER_SDCARD_Select	4	static
+sd_override_functions.c:48:6:USER_SDCARD_Unselect	4	static
+sd_override_functions.c:53:9:USER_SDCARD_isAvailable	8	static
+sd_override_functions.c:58:6:USER_SDCARD_isInitialisedCallback	8	static
+sd_override_functions.c:69:9:USER_Return_uSD_Status	8	static
+sd_override_functions.c:79:6:USER_ICP_ResetCondition	8	static
+sd_override_functions.c:84:9:USER_ICP_CheckCondition	8	static
+sd_override_functions.c:89:9:USER_ICP_ConditionValidation	8	static
