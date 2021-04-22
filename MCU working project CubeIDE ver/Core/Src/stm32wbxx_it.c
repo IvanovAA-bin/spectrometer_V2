@@ -217,11 +217,12 @@ void DMA1_Channel1_IRQHandler(void)
 	uint16_t max_val = sys.rad.calculateMaxValue(dma_buffer, dma_buf_len);
 	//sys.rad.increaseChannelData(max_val);
 
-	if (max_val > sys.settings.minValueFiltration && max_val < sys.settings.maxValueFiltration)
+	if (max_val > sys.settings.minValueFiltration)
 	{
 		if (sys.tim2.isTurnedOn)
 			++sys.rad._cps;
-		++sys.rad._spectrogram[max_val];
+		if (max_val < sys.settings.maxValueFiltration)
+			++sys.rad._spectrogram[max_val];
 	}
 
 
